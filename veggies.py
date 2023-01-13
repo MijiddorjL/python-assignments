@@ -16,7 +16,7 @@ for veg in vegetables:
 
 # 2. In the loop, write the name of each vegetable and the color 
 #    into a CSV called vegetables.csv
-#    
+# 3. Bonus: add the length of the name of the vegtable as separate column 
 
 with open('vegetables.csv', 'w') as f:
     writer = csv.writer(f)
